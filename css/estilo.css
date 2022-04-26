@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	background: #fff url(../img/fundo.png) repeat-x;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#topo ul{
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+#topo ul li{
+	float: left;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+#topo{
+	height: 150px;
+	background: url(../img/detalhe-topo.png) no-repeat right top;
+	border: 1px solid red;
+}
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(../img/logo.png) no-repeat center;
+	text-indent: -30000;
+}
